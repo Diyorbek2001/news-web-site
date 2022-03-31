@@ -1,0 +1,242 @@
+.navbar{ 
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.253);
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #fff;
+}
+.navbar .logo{
+    width: 135px;
+    height: 80%;
+    margin: auto 50px;
+    position: relative;
+}
+.navbar .logo a img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.navbar .usd {
+    width: 80px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.navbar .usd button {
+    width: 75%;
+    height: 30%;
+    position: relative;
+    border: none;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid rgba(51, 51, 51, 0.253);
+    border-radius: 8px;
+}
+.navbar .usd button i{
+    transform: rotate(180deg);
+}
+.navbar .usd .usd1 {
+    width: 55%;
+    height: 60%;
+    position: relative;
+    border: 1px solid rgba(51, 51, 51, 0.253);
+    border-radius: 8px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 7px;
+    display: none;
+}
+.navbar .sot {
+    width: 240px;
+    height: 70%;
+    margin: auto 10px;
+    position: relative;
+    display: flex;
+}
+.navbar .sot .sot1 {
+    width: 45%;
+    height: 80%;
+    margin: auto 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.navbar .sot .sot1 p{
+    color: rgba(51, 51, 51, 0.493);
+    font-size: 15px;
+}
+.navbar .sot .sot1 h1{
+    font-size: 20px;
+}
+.navbar .obhavo {
+    width: 100px;
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    right: 0;
+    flex-direction: column;
+}
+.navbar .obhavo .obhavo1 {
+    width: 100%;
+    position: relative;
+    height: 40px;
+    display: flex;
+}
+.navbar .obhavo .obhavo1 > i{
+    font-size: 16px;
+    color: #999;
+    margin: auto 5px;
+}
+.navbar .obhavo .obhavo1 .obhavo2{ 
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.navbar .obhavo .obhavo1 .obhavo2 .gradus {
+    color: #8527D8;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar .obhavo .obhavo1 .obhavo2 a {
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+.navbar .obhavo .obhavo1 .obhavo2 a i {
+    transform: rotate(180deg);
+    font-size: 10px;
+}
+.navbar .obhavo .obhavo3 {
+    width: 310px;
+    height: 110px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.navbar .obhavo .obhavo3 a {
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.493);
+    margin: 2px;
+}
+.navbar .til {
+    width: 140px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    right: 0px;
+}
+.navbar .til button{ 
+    width: 120px;
+    height: 34px;
+    position: relative;
+    margin: auto ;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid rgba(136, 136, 136, 0.658);
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    color: #8527D8;
+}
+.navbar .til button:nth-child(1){ 
+    margin-top: 0px;
+}
+.navbar .til button i {
+    font-size: 12px;
+    transform: rotate(180deg);
+    margin: 0 0 0 -7px;
+}
+.navbar .til button:nth-child(2) {
+    color: black;
+    display: none;
+}
+.navbar .internet{
+    width: 210px;
+    height: 60%;
+    position: relative;
+    margin: auto 30px;
+    right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar .internet i {
+    margin: auto;
+    color: rgba(136, 136, 136, 0.658);
+    font-size: 18px;
+}
+.navbar .internet i:hover {
+    color: #8527D8;
+}
+.navbar1 {
+    width: 100%;
+    height:70px;
+    position: relative;
+    background-color: #8527D8;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar1 ul {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8527D8;
+}
+.navbar1 ul li {
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar1 ul li:nth-child(9) i {
+    font-size: 14px;
+    transform: rotate(180deg);
+}
+.navbar1 ul #boshqa{ 
+    width: 120px;
+    height: 140px;
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+}
+.navbar1 ul #boshqa li {
+    font-size: 18px;
+}
+.navbar1 i {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto 10px;
+}
